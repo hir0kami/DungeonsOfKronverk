@@ -1,0 +1,25 @@
+{
+  "enemies": [
+    {
+      "id": "cleaner",
+      "name": "Angry cleaner",
+      "desc": "She mops the corridor and glares. You are in her way.",
+      "hp": 25,
+      "damage": 5
+    },
+    {
+      "id": "guard",
+      "name": "Night guard",
+      "desc": "Half asleep, but his flashlight hurts when it hits you.",
+      "hp": 40,
+      "damage": 8
+    },
+    {
+      "id": "professor",
+      "name": "The Professor",
+      "desc": "Red pen in hand. He has failed stronger students than you.",
+      "hp": 70,
+      "damage": 12
+    }
+  ]
+}

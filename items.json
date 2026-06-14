@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": "konspekt",
+      "name": "Lecture notes",
+      "desc": "A thick stack of konspekt. Answers to every possible question.",
+      "type": "weapon",
+      "value": 15
+    },
+    {
+      "id": "coffee",
+      "name": "Cold coffee",
+      "desc": "Vending machine coffee. Bitter, but it brings you back to life.",
+      "type": "heal",
+      "value": 30
+    },
+    {
+      "id": "energetik",
+      "name": "Energy drink",
+      "desc": "Pure caffeine and sugar. Restores a lot of HP.",
+      "type": "heal",
+      "value": 50
+    },
+    {
+      "id": "pen",
+      "name": "Lucky pen",
+      "desc": "A worn ballpoint. Somehow it always finds the right words.",
+      "type": "weapon",
+      "value": 8
+    }
+  ]
+}

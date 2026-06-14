@@ -1,0 +1,48 @@
+{
+  "start": "lobby",
+  "win": "exam_room",
+  "rooms": [
+    {
+      "id": "lobby",
+      "name": "Empty lobby",
+      "desc": "The turnstiles are dark. A corridor leads north, stairs go east.",
+      "exits": { "north": "corridor", "east": "stairwell" },
+      "items": ["pen"]
+    },
+    {
+      "id": "corridor",
+      "name": "Long corridor",
+      "desc": "Wet floor signs everywhere. Someone is mopping ahead.",
+      "exits": { "south": "lobby", "north": "cafeteria" },
+      "enemy": "cleaner"
+    },
+    {
+      "id": "cafeteria",
+      "name": "Closed cafeteria",
+      "desc": "Chairs on tables. A vending machine hums in the corner.",
+      "exits": { "south": "corridor" },
+      "items": ["coffee", "konspekt"]
+    },
+    {
+      "id": "stairwell",
+      "name": "Dim stairwell",
+      "desc": "Concrete steps spiral down. A guard blocks the lower landing.",
+      "exits": { "west": "lobby", "south": "basement" },
+      "enemy": "guard"
+    },
+    {
+      "id": "basement",
+      "name": "Basement archive",
+      "desc": "Dusty shelves of old gradebooks. A door marked EXAM leads east.",
+      "exits": { "north": "stairwell", "east": "exam_room" },
+      "items": ["energetik"]
+    },
+    {
+      "id": "exam_room",
+      "name": "Exam room",
+      "desc": "One desk, one chair, one professor. Your gradebook lies open.",
+      "exits": { "west": "basement" },
+      "enemy": "professor"
+    }
+  ]
+}
